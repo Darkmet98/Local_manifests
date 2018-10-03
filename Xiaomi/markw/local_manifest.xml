@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device Sources-->
-  <project path="device/xiaomi/markw" name="markw-dev/android_device_xiaomi_markw" revision="cm-13.0" />
-  <project path="vendor/xiaomi" name="markw-dev/proprietary_vendor_xiaomi" revision="cm-13.0" />
-  <project path="kernel/xiaomi/msm8953" name="markw-dev/android_kernel_xiaomi_msm8953" revision="cm-13.0" />
-  <!--Dependencies-->
-  <project path="hardware/qcom/display-caf/msm8937" name="markw-dev/android_hardware_qcom_display" revision="cm-13.0-caf-8937" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-13.0" />
-  <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" revision="cm-13.0-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" revision="cm-13.0-caf-8937" />
+  <!--dotOS Oreo-->
+  <project path="device/xiaomi/markw" name="Darkmet98/android_device_xiaomi_markw" remote="github" revision="dot-o" />
+  <project path="vendor/xiaomi" name="freemarkw/proprietary_vendor_xiaomi" remote="github" revision="lineage-15.1" />
+  <project path="kernel/xiaomi/msm8953" name="freemarkw/android_kernel_xiaomi_msm8953" remote="github" revision="Nosgoth" />
 </manifest>
